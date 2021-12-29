@@ -851,6 +851,6 @@ TSWLatexianTemp*
 
 /dataset/*
 !/dataset/input/*
-!/dataset/process/example_prioritize_results/*
+!/dataset/process/shiro/core/example_prioritize_results/*
 /log/
 

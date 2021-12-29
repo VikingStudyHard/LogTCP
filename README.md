@@ -2,6 +2,17 @@
 
 This repository is the basic implementation of our submission in TOSEM 2022: **Exploring Better Black-Box Test Case Prioritization via Log Analysis**. 
 
+**[LogTCP](https://github.com/VikingStudyHard/LogTCP#logtcp)**
+
+- [Introduction](https://github.com/VikingStudyHard/LogTCP#introduction)
+- [Project Structure](https://github.com/VikingStudyH ard/LogTCP#project-structure)
+  - [Sample Input Data](https://github.com/VikingStudyHard/LogTCP#sample-input-data)
+
+- [Environment](https://github.com/VikingStudyHard/LogTCP#environment)
+- [Experiment Replication](https://github.com/VikingStudyHard/LogTCP#experiment-replication) 
+- [Randomness](https://github.com/VikingStudyHard/LogTCP#randomness)
+
+
 ## Introduction
 *LogTCP* is a general log-based black-box test case prioritization (BTCP) framework, which aims to mine test logs produced during test execution to more sufficiently reflect test behaviors, thereby improving the effectiveness of BTCP. Specifically, it includes three key components: log pre-processing, log representation, and test case prioritization. 
 
@@ -19,7 +30,7 @@ LogTCP
 ├─ mutant/     # Scripts for mutant faults selection.
 ├─ prioritize/ # Scripts for test case prioritization strategies. 
 ├─ util/      
-└─pipeline.py  # Main entrance code.
+└─ pipeline.py  # Main entrance code.
 ```
 
 ### Sample Input Data
@@ -59,7 +70,7 @@ Key Packages:
 
 ## Experiment Replication
 
-1. Prepare the data in the directory `./dataset/input/` according to the description [here](#Sample Input Data).
+1. Prepare the data in the directory `./dataset/input/` according to the description [here](LogTCP#sample-input-data).
 
 2. Execute the `prioritize.py` script with the following command:
 
@@ -70,9 +81,19 @@ python pipeline.py --project <project> --module <module> --logs_representation <
 - The arguments `<project>` and `<module>` indicate the experimental subject.
 - As for the argument  `<logs_representation>` , the possible values are `count`, `ordering`, and `semantics`, which indicate the count-based,  the ordering-based, and the semantics-based log representation, respectively.
 - As for the argument  `<prioritization>` , the possible values are `arp`, `total`,  `additional` and `ideal`, which indicate the adaptive random prioritization strategy, the total strategy, the additional strategy, and the ideal strategy, respectively. It is worth noting that since the semantic-based representation strategy does not involve the concept of coverage, we cannot set  `<prioritization>`  to `total` or `additional`, but set  `<logs_representation>` to `semantics` at the same time.
-- The argument `distance_option` indicates the distance calculation method between two log vectors, and it only takes effect when the argument  `<prioritization>` is set to `arp`. The possible values are `e`, `c`,  and `m`, which indicate the Euclidean distance, the manhattan distance, and the cosine distance, respectively. 
+- The argument `distance_option` indicates the distance calculation method between two log vectors, and it only takes effect when the argument  `<prioritization>` is set to `arp`. The possible values are `e`, `c`,  and `m`, which indicate the Euclidean distance, the Manhattan distance, and the Cosine distance, respectively. 
 
 
-3. View the prioritization results stored in the folder `./dataset/process/<project>/<module>/priortiza_results/`.
-   
-    
+3. View the prioritization results stored in the folder `./dataset/process/<project>/<module>/priortize_results/`.
+
+## Randomness
+
+We provide our prioritization results for the subject `Shiro-core` in the  `./dataset/process/shiro/core/example_prioritize_results/` [folder](https://github.com/VikingStudyHard/LogTCP/tree/main/dataset/process/shiro/core/example_prioritize_results). 
+
+You may not get the same results while reproducing the experiments due to the randomness which stems from the following points:
+
+- The word vectors trained by the *FastText* algorithm are not exactly the same.
+- The mutation faults used in our experiments are selected randomly.
+- In the process of prioritization, when we select a test case from the unselected test cases, there may exist many test cases that meet the current conditions (e.g., the same distance in the adaptive random prioritization strategy, the same coverage in the total and additional strategies and the generation of the ideal prioritization results, and the test cases without test execution logs that need to be appended to the test cases with test execution logs), which leads to the randomness of prioritization results.
+
+To reduce the influence of randomness, we repeated all the TCP techniques involving randomness 5 times and calculated the average results in our study. That's why the results shown in our paper are different from the results in the `example_prioritize_results` folder. 
