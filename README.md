@@ -5,7 +5,7 @@ This repository is the basic implementation of our submission in TOSEM 2022: **E
 **[LogTCP](https://github.com/VikingStudyHard/LogTCP#logtcp)**
 
 - [Introduction](https://github.com/VikingStudyHard/LogTCP#introduction)
-- [Project Structure](https://github.com/VikingStudyH ard/LogTCP#project-structure)
+- [Project Structure](https://github.com/VikingStudyHard/LogTCP#project-structure)
   - [Sample Input Data](https://github.com/VikingStudyHard/LogTCP#sample-input-data)
 
 - [Environment](https://github.com/VikingStudyHard/LogTCP#environment)
@@ -23,12 +23,12 @@ The project is structured as follows:
 ```
 LogTCP
 .
-├─ data/       # Scripts for the generation of log representation, e.g. the natural language pre-processing on log events, three strategies for log representation. 
+├─ data/        # Scripts for the generation of log representation, e.g. the natural language pre-processing on log events, three strategies for log representation. 
 ├─ dataset/   
-│  ├─ input/   # Input data.
-│  ├─ process/ # Raw output data. This folder would be generated during the experiments execution.
-├─ mutant/     # Scripts for mutant faults selection.
-├─ prioritize/ # Scripts for test case prioritization strategies. 
+│  ├─ input/    # Input data.
+│  ├─ process/  # Raw output data. This folder would be generated during the experiments execution.
+├─ mutant/      # Scripts for mutant faults selection.
+├─ prioritize/  # Scripts for test case prioritization strategies. 
 ├─ util/      
 └─ pipeline.py  # Main entrance code.
 ```
@@ -70,11 +70,11 @@ Key Packages:
 
 ## Experiment Replication
 
-1. Prepare the data in the directory `./dataset/input/` according to the description [here](LogTCP#sample-input-data).
+1. Prepare the data in the directory `./dataset/input/` according to the description [here](https://github.com/VikingStudyHard/LogTCP#sample-input-data).
 
 2. Execute the `prioritize.py` script with the following command:
 
-```
+```bash
 python pipeline.py --project <project> --module <module> --logs_representation <logs_representation> --prioritization <prioritization> --distance_option <distance_option>
 ```
 

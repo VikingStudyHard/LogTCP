@@ -1,0 +1,126 @@
+Authentication attempt received for token [org.apache.shiro.authc.UsernamePasswordToken - <:*:> rememberMe=false]
+Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - <:*:> rememberMe=false]. Returned account <:*:>
+Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - user1, rememberMe=false]. Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+The configured hashFormat instance [org.apache.shiro.crypto.hash.format.HexFormat] is not a org.apache.shiro.crypto.hash.format.ParsableHashFormat implementation. This is required if you wish to support backwards compatibility for saved password checking (almost always desirable). Without a ParsableHashFormat instance, any hashService configuration changes will break previously hashed/saved passwords.
+Performing credentials equality check for tokenCredentials of type <:*:> and accountCredentials of type <:*:>
+Both credentials arguments can be easily converted to byte arrays. Performing array equals comparison
+Iterating through 2 realms for PAM authentication
+Attempting to authenticate token [EasyMock for interface org.apache.shiro.authc.AuthenticationToken] using realm [EasyMock for interface org.apache.shiro.realm.Realm]
+Realm [EasyMock for interface org.apache.shiro.realm.Realm] threw an exception during a multi-realm authentication attempt:
+get() - in thread [main]
+Discovered the <:*:> section. Processing...
+Bound value of type <:*:> for key <:*:> to thread [main]
+Retrieved value of type <:*:> for key <:*:> bound to thread [main]
+Context already contains a SecurityManager instance. Returning.
+No identity (PrincipalCollection) found in the context. Looking for a remembered identity.
+No remembered identity found. Returning original context.
+attempting to get session; create = <:*:> session is null = <:*:> session has id = <:*:>
+Opening resource from class path <:*:>
+Parsing <:*:>
+Discovered key/value pair: <:*:> = <:*:> <:*:>
+Discovered key/value pair: <:*:> = <:*:>
+Setting default value: <:*:>
+Converting <:*:> value <:*:> to type <:*:>
+No conversion required, value is already a <:*:>
+Converted to <:*:> value <:*:>
+Setting default value:
+Converting 'Character' value ' ' to type 'Character'
+Unable to load clazz named [org.apache.commons.configuration2.interpol.ConfigurationInterpolator] from class loader [sun.misc.Launcher$AppClassLoader@3d4eac69]
+Unable to load class named [org.apache.commons.configuration2.interpol.ConfigurationInterpolator] from the thread context ClassLoader. Trying the current ClassLoader...
+Unable to load class named [org.apache.commons.configuration2.interpol.ConfigurationInterpolator] from the current ClassLoader. Trying the system/application ClassLoader...
+Creating instance from Ini <:*:>
+Specified name was null or empty. Defaulting to the default section (name = "")
+Encountered object reference <:*:> Looking up object with id <:*:>
+Applying property <:*:> value <:*:> on object of type <:*:>
+setProperty(org.apache.shiro.realm.text.IniRealm@7a04fea7, permissionResolver, org.apache.shiro.config.MockPermissionResolver@7979b8b7)
+Target <:*:> = <:*:>
+setSimpleProperty: Invoking method public void <:*:> with value <:*:> (class <:*:>
+Users or Roles are already populated. Configured Ini instance will be ignored.
+Instance is already populated with users or roles. No additional user/role population will be performed.
+setProperty(org.apache.shiro.realm.text.IniRealm@1a865273, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@26844abb)
+Looked up AuthenticationInfo <:*:> from doGetAuthenticationInfo
+AuthenticationInfo caching is disabled for info <:*:> Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - <:*:> rememberMe=false].
+Starting session for host <:*:>
+No sessionValidationScheduler set. Attempting to create default instance.
+Created default SessionValidationScheduler instance of type [org.apache.shiro.session.mgt.ExecutorServiceSessionValidationScheduler].
+Enabling session validation scheduler...
+Creating session for host <:*:>
+Creating new EIS record for new session instance <:*:>
+Attempting to retrieve <:*:> <:*:> <:*:> <:*:>
+This org.apache.shiro.mgt.DefaultSecurityManager instance does not have a [org.apache.shiro.mgt.RememberMeManager] instance configured. RememberMe services will not be performed for account <:*:>
+setProperty(org.apache.shiro.realm.text.PropertiesRealm@62e93c3a, resourcePath, classpath:org/apache/shiro/config/IniSecurityManagerFactoryTest.propsRealm.properties)
+Convert string <:*:> to class <:*:>
+Using converter <:*:>
+Loading user security information from file [classpath:org/apache/shiro/config/IniSecurityManagerFactoryTest.propsRealm.properties]...
+Opening input stream for path [classpath:org/apache/shiro/config/IniSecurityManagerFactoryTest.propsRealm.properties]...
+Loading properties from path [classpath:org/apache/shiro/config/IniSecurityManagerFactoryTest.propsRealm.properties]...
+Processing properties line - key: <:*:> value: <:*:>
+setProperty(org.apache.shiro.mgt.DefaultSecurityManager@4674d90, sessionManager.sessionDAO, org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO@546e61d5)
+Applying property [cacheManager] value <:*:> with 0 cache(s)): []] on object of type [org.apache.shiro.mgt.DefaultSecurityManager]
+<:*:> cacheManager, <:*:> with 0 cache(s)): [])
+setSimpleProperty: Invoking method public void org.apache.shiro.mgt.CachingSecurityManager.setCacheManager(org.apache.shiro.cache.CacheManager) with value <:*:> with 0 cache(s)): [] (class <:*:>
+Null or empty Ini instance. Falling back to the default classpath:shiro.ini file.
+Resource [shiro.ini] was not found via the <:*:> <:*:> <:*:> Trying the <:*:> ClassLoader...
+Resource [shiro.ini] was not found via the thread context, current, or system/application ClassLoaders. All heuristics have been exhausted. Returning null.
+No <:*:> <:*:> <:*:> <:*:> a default instance.
+setProperty(org.apache.shiro.mgt.DefaultSecurityManager@9596ce8, sessionManager.globalSessionTimeout, 5000)
+Using converter ConverterFacade[LongConverter[UseDefault=true, UseLocaleFormat=false]]
+No NumberFormat, using default conversion
+MisnamedBean bean 'baz' [java.lang.Object@7aac8884]
+Retrieving AuthorizationInfo for principals <:*:>
+Logging out subject with primary principal <:*:>
+Cleared cache entries for account with principals <:*:>
+Stopping session with id <:*:>
+Disabled session validation scheduler.
+Session with id <:*:> has expired. Last access time: 11/5/21 <:*:> PM. Current time: 11/5/21 <:*:> PM. Session timeout is set to <:*:> seconds <:*:> minutes)
+Session with id <:*:> <:*:> <:*:>
+Session storage of subject state for Subject [EasyMock for interface org.apache.shiro.subject.Subject] has been disabled: identity and authentication state are expected to be initialized on every request or invocation.
+Authentication attempt received for token [org.apache.shiro.authc.UsernamePasswordToken - testuser, rememberMe=false (localhost)]
+AuthenticationInfo caching is disabled for info <:*:> Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - testuser, rememberMe=false (localhost)].
+Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - testuser, rememberMe=false (localhost)]. Returned account [org.apache.shiro.realm.UserIdPrincipal@226f885f,org.apache.shiro.realm.UsernamePrincipal@2cd2c8fe]
+No <:*:> instance set. Checking for a cacheManager...
+No cache or cacheManager properties have been set. Authorization cache cannot be obtained.
+setProperty(org.apache.shiro.mgt.DefaultSecurityManager@1a480135, realms, [org.apache.shiro.realm.TestAuthenticatingRealm@38c2c309])
+setProperty(org.apache.shiro.realm.TestAuthenticatingRealm@38c2c309, authenticationCachingEnabled, true)
+CacheManager [MemoryConstrainedCacheManager with 0 cache(s)): []] configured. Building authentication cache 'realm.authenticationCache'
+Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+No AuthorizationInfo found in cache for key <:*:>
+Cached AuthenticationInfo for continued authentication. key=[user1], value=[user1].
+Found cached AuthorizationInfo for key <:*:>
+Using cached authentication info [user1] to perform credentials matching.
+Looked up AuthenticationInfo [EasyMock for interface org.apache.shiro.authc.AuthenticationInfo] from doGetAuthenticationInfo
+AuthenticationInfo caching is disabled for info [EasyMock for interface org.apache.shiro.authc.AuthenticationInfo]. Submitted token: [EasyMock for interface org.apache.shiro.authc.AuthenticationToken].
+CacheManager [EasyMock for interface org.apache.shiro.cache.CacheManager] configured. Building authentication cache <:*:>
+Using cached authentication info [EasyMock for interface org.apache.shiro.authc.AuthenticationInfo] to perform credentials matching.
+Cleared cache entries for account with principals [EasyMock for interface org.apache.shiro.subject.PrincipalCollection]
+Cached AuthenticationInfo for continued authentication. key=[foo], value=[EasyMock for interface org.apache.shiro.authc.AuthenticationInfo].
+No AuthenticationInfo found for submitted AuthenticationToken [EasyMock for interface org.apache.shiro.authc.AuthenticationToken]. Returning null.
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@52eacb4b, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@54ec8cc9)
+<:*:> sessionManager.sessionValidationSchedulerEnabled, false)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@65e7f52a, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@6f815e7f)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@705202d1, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@5ffc5491)
+Executing session validation...
+Validating all active sessions...
+Finished session validation. <:*:> sessions were stopped.
+Session validation completed successfully in <:*:> milliseconds.
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@41a6d121, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@5b6e8f77)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@6a933be2, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@5bb8f9e2)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@4525d1d3, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@3e9803c2)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@43cf6ea3, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@4d33940d)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@3e83c18, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@7cedfa63)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@677b8e13, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@4fe875be)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@64138b0c, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@41c204a0)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@108531c2, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@6b474074)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@54562ea6, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@562457e1)
+setProperty(org.apache.shiro.realm.jdbc.JdbcRealm@377008df, credentialsMatcher, org.apache.shiro.authc.credential.Sha256CredentialsMatcher@f72203)
+Determined user DN prefix [uid=] and suffix [,ou=users,dc=mycompany,dc=com]
+Authenticating user <:*:> through LDAP
+userDnTemplate property has not been configured, indicating the submitted AuthenticationToken's principal is the same as the User DN. Returning the method argument as is.
+AuthenticationInfo caching is disabled for info <:*:> Submitted token: <:*:>
+Initializing LDAP context using URL <:*:> and principal <:*:> with pooling <:*:>
+No INI instance configuration present. Checking resourcePath...
+Resource path <:*:> defined. Creating INI instance.
+IniRealm defined, but there is no [users] section defined. This realm will not be populated with any users and it is assumed that they will be populated programatically. Users must be defined for this Realm instance to be useful.
+IniRealm defined, but the ini instance is null or empty.
+Invalidated session with id <:*:> <:*:>
+Error while validating the session

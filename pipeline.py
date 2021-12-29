@@ -29,12 +29,12 @@ if __name__ == '__main__':
                                  'arp: the adaptive random prioritization strategy; '
                                  'total: the total prioritization strategy; '
                                  'additional: the additional prioritization strategy; '
-                                 'ideal: the ideal strategy. ')
+                                 'ideal: the ideal prioritization results. ')
     arg_parser.add_argument('--distance_option', default="e", type=str,
                             help='e: euclidean distance; '
                                  'c: cosine distance; '
                                  'm: manhattan distance; '
-                                 'n: no distance ')
+                                 'n: no distance. ')
 
     args, extra_args = arg_parser.parse_known_args()
     project = args.project
