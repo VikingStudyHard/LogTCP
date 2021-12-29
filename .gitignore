@@ -849,6 +849,7 @@ TSWLatexianTemp*
 .DS_Store/
 .idea/
 
+/dataset/*
 #/dataset/input/*
 #/dataset/process/shiro/core/example_prioritize_results/*
 
