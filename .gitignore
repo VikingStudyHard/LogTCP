@@ -850,8 +850,8 @@ TSWLatexianTemp*
 .idea/
 
 /dataset/*
-#/dataset/input/*
-#/dataset/process/shiro/core/example_prioritize_results/*
+!/dataset/input/*
+!/dataset/process/shiro/core/example_prioritize_results/*
 
 /log/
 
