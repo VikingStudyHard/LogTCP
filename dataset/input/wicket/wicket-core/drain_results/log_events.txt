@@ -1,0 +1,298 @@
+<:*:> <:*:> Wicket core library initializer
+Calculating context relative path from context path '< PATH > filterPrefix <:*:> uri '< PATH >
+One compatible mapper found for URL <:*:> <:*:> <:*:> -> 'Mapper < TESTCASE > Score <:*:>
+Load markup cacheKey < TESTCASE >
+Loading markup from < TESTCASE > < HTML >
+The markup file does not have a XML declaration prolog with 'encoding' attribute < TESTCASE > <:*:> <:*:> <:*:>
+Add <:*:> to Page class < TESTCASE > id <:*:> render count <:*:>
+'main' attempting to acquire lock to page with id <:*:>
+main acquired lock to page <:*:>
+Add <:*:> to <:*:> Component id <:*:>
+Replacing <:*:> in <:*:> Component id <:*:>
+Replacing parent <:*:> Component id <:*:> with null
+Begin render Page class < TESTCASE > id <:*:> render count <:*:>
+Begin render <:*:> Component id <:*:>
+internalRenderHead <:*:> Component id <:*:>
+Rendered <:*:> Component id <:*:>
+End render <:*:> Component id <:*:>
+Rendered Page class < TESTCASE > id <:*:> render count <:*:>
+End render Page class < TESTCASE > id <:*:> render count <:*:>
+ending request for page Page class < TESTCASE > id <:*:> render count <:*:> request < TESTCASE >
+'main' released lock to page with id <:*:>
+'main' notifying blocked threads
+Attempting to locate resource <:*:> PATH > using finder' classpath '
+Attempting to locate resource <:*:> PATH > using finder' webapppath / '
+Attempting to locate resource <:*:> PATH > using finder' classpath META-INF< PATH >
+Loading markup from <:*:> <:*:> <:*:> <:*:>
+Page ' Page class < TESTCASE > id <:*:> render count <:*:> ' is not stateless because of component with path <:*:>
+internalRenderHead Component id <:*:>
+Begin render Component id <:*:>
+Rendered Component id <:*:>
+End render Component id <:*:>
+Multiple compatible mappers found for URL <:*:> PATH >
+* Mapper < TESTCASE > Score <:*:>
+Ignoring the Ajax request because its method 'post' is different than the expected one 'GET
+The markup file does not have a XML declaration prolog with 'encoding' attribute <:*:> <:*:> <:*:> <:*:> It is safer to use it. E.g. < HTML >
+< <:*:> >
+Replacing <:*:> in Page class < TESTCASE > id <:*:> render count <:*:>
+Replacing parent Page class < TESTCASE > id <:*:> render count <:*:> with null
+********************************
+Handling the following exception
+debugging ----------------------------------------------
+EV path <:*:> < TESTCASE >
+Found constructor for Page of type 'class < TESTCASE >' and argument of type 'class < TESTCASE >'.
+Cannot find <:*:> class < TESTCASE <:*:>
+'< HTML >
+Locate property key <:*:> Component ' <:*:> Component id <:*:> '
+component ' <:*:> Component id <:*:> ' key <:*:>
+key <:*:> class '< TESTCASE >' locale <:*:> Style <:*:> Variation <:*:>
+Loading properties files from 'file < PATH > with loader '< TESTCASE >'
+Property not found key <:*:> Component ' <:*:> Component id <:*:> '
+Property found in cache <:*:> Component ' <:*:> Component id <:*:> ' value <:*:>
+Adding feedback message ' FeedbackMessage message <:*:> <:*:> <:*:> reporter <:*:> level <:*:> '
+Markup not found < TESTCASE >
+Unexpected error occurred
+Page ' Page class < TESTCASE > id <:*:> render count <:*:> ' is not stateless because of component with path <:*:> <:*:> <:*:>
+< TESTCASE > < TESTCASE >
+Cannot find setter corresponding to public <:*:> < TESTCASE >()
+Merge markup derived markup <:*:> base markup <:*:>
+Merge markup file < PATH >
+Component ' Component id <:*:> ' not cannot be updated because it was already removed from page
+Adding feedback message ' FeedbackMessage message <:*:> <:*:> reporter <:*:> level <:*:> '
+WARNING The webapp root directory is invalid
+loaded transient object <:*:> for '< TESTCASE > attached false tempModelObject <:*:> '
+removed transient object for '< TESTCASE > attached false tempModelObject null '
+Page of type 'class < TESTCASE >' has not visible constructor with an argument of type 'class < TESTCASE >'.
+behavior not enabled ignore call. Behavior < TESTCASE > at component WebMarkupContainer Component id container
+Locate property key <:*:> Component 'null'
+Property not found key <:*:> Component 'null'
+Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component Component id myLabel
+Locate property key <:*:> Component ' Component id <:*:> '
+component ' Component id <:*:> ' key <:*:>
+Cannot find <:*:> class <:*:>
+It is not a good idea to reference non-serializable class < TESTCASE > in a model directly as it may lead to serialization problems.
+One compatible mapper found for URL <:*:> -> 'Mapper < TESTCASE > Score <:*:>
+Multiple compatible mappers found for URL <:*:>
+An IRequestListener was called but its page< PATH > couldn't be resolved. Scheduling re-create of the page and ignoring the listener interface...
+A ResourceReference wont be created for a resource with key scope < TESTCASE > name reference2< PATH > locale null style null variation null because it cannot be located.
+A ResourceReference wont be created for a resource with key scope < TESTCASE > name <:*:> locale <:*:> style null variation null because it cannot be located.
+Could not resolve class < TESTCASE >
+using encryption< PATH > object < TESTCASE >
+Error decoding text <:*:>
+Url <:*:> has been decrypted to <:*:>
+No compatible mapper found for URL <:*:>
+Error decoding text no decryptable
+Url <:*:> PATH > has been decrypted to <:*:> PATH >
+Url '?namedKey1 namedValue1' has been decrypted to '?namedKey1 namedValue1'
+No compatible mapper found for URL <:*:> <:*:>
+Url 'path< PATH > has been decrypted to 'null'
+Object with type 'class java.lang.String' wont be checked because its type is excluded (interface java.lang.CharSequence)
+Error serializing object class < TESTCASE > object <:*:> <:*:> <:*:>
+Error serializing object class < TESTCASE > object Page class < TESTCASE > id 1 render count 0
+Error serializing object class < TESTCASE > object WebMarkupContainer Component id container
+ComponentRenderer 99431951 <:*:> Wicket core library initializer
+Load markup cacheKey null
+Component ' <:*:> Component id <:*:> ' with a parent ' Page class < TESTCASE > id 0 render count 0 ' is passed for standalone rendering. It is recommended to render only orphan components because they are not cleaned up< PATH > after the rendering.
+Markup file not loaded since the markup type is not yet available <:*:> Component id <:*:>
+test
+< TESTCASE > <:*:>
+component not enabled or visible ignoring call. Component <:*:> Component id <:*:>
+Property found in cache <:*:> Component ' <:*:> Component id <:*:> ' value <:*:> <:*:>
+Added autolink <:*:> Component id <:*:>
+Did not find corresponding java class < TESTCASE >
+The markup file does not have a XML declaration prolog with 'encoding' attribute < TESTCASE > <!--
+Error while reading the markup file < PATH >
+No value found for wicket message tag with key <:*:>
+Property found in cache <:*:> Component ' <:*:> Component id <:*:> ' value <:*:> <:*:> <:*:>
+The markup file does not have a XML declaration prolog with 'encoding' attribute < TESTCASE > <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> >
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+You probably forgot to add a < HTML > tag to your markup since no Header Container was
+The markup file does not have a XML declaration prolog with 'encoding' attribute < TESTCASE >
+Replacing parent <:*:> Component id <:*:> with <:*:> Component id <:*:>
+Page ' Page class < TESTCASE > id <:*:> render count <:*:> ' is not stateless because of component with path <:*:> <:*:>
+Page ' Page class < TESTCASE > id 0 render count 1 ' is not stateless because of component with path 'outerBorder nestedBorder nestedBorder_body outerBorder_body ajaxClick'.
+loaded transient object 'label from properties' for 'StringResourceModel key msg default null params '
+removed transient object for 'StringResourceModel key <:*:> default null params '
+Property found in cache <:*:> Component ' <:*:> Component id <:*:> ' value <:*:> <:*:> <:*:> <:*:>
+loaded transient object 'label from properties <:*:> for 'StringResourceModel key msg default null params '
+loaded transient object <:*:> <:*:> for '< TESTCASE > attached false tempModelObject <:*:> <:*:> '
+loaded transient object 'label from properties <:*:> for '< TESTCASE > attached false tempModelObject label from properties <:*:> '
+loaded transient object <:*:> <:*:> <:*:> for '< TESTCASE > attached false tempModelObject <:*:> <:*:> <:*:> '
+It is not a good idea to reference non-serializable class <:*:> in a model directly as it may lead to serialization problems.
+An error occurred while trying to <:*:> the collection attached to <:*:> Component id <:*:>
+loaded transient object ' 1 2 ' for '< TESTCASE > attached false tempModelObject 1 2 '
+EV path form <:*:> < TESTCASE > 1 2
+middleForm.onError
+middleForm.onSubmit
+outerForm.onSubmit
+innerForm.onSubmit
+innerForm.onError
+outerForm.onError
+Adding feedback message ' FeedbackMessage message <:*:> reporter <:*:> level <:*:> '
+Adding feedback message ' FeedbackMessage message <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> reporter <:*:> level <:*:> '
+Adding feedback message ' FeedbackMessage message "The value of 'Number' is not a valid Double." reporter field level ERROR '
+Adding feedback message ' FeedbackMessage message "Der Wert von 'Number' ist kein g?ltiger Wert f?r 'Double'." reporter field level ERROR '
+Adding feedback message ' FeedbackMessage message <:*:> <:*:> <:*:> <:*:> <:*:> reporter <:*:> level ERROR '
+Adding feedback message ' FeedbackMessage message <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> reporter <:*:> level ERROR '
+Locate property key '< TESTCASE >' Component ' MultiFileUploadField Component id muf '
+component ' MultiFileUploadField Component id muf ' key '< TESTCASE >'
+key <:*:> TESTCASE >' class '< TESTCASE >' locale 'en_US' Style 'null' Variation 'null'
+Property found in cache '< TESTCASE >' Component ' MultiFileUploadField Component id muf ' value 'Delete'
+Property found in cache '< TESTCASE >' Component ' MultiFileUploadField Component id muf ' value 'Files '
+Adding feedback message ' FeedbackMessage message <:*:> <:*:> <:*:> <:*:> reporter <:*:> level ERROR '
+Component <:*:> Component id <:*:> wasn't rendered but might have a transparent parent.
+Component Component id <:*:> wasn't rendered but might have a transparent parent.
+You are using a non-standard namespace name <:*:>
+Did not find corresponding java class <:*:>
+Content-Type application< PATH >
+Page ' Page class < TESTCASE > id 0 render count 1 ' is not stateless because of component with path 'navigator navigation 1 pageLink'.
+Access to root directory is by default disabled for shared resources test.gif
+Access denied to shared (static) resource because it is a Wicket markup file org< PATH >
+Access to root directory is by default disabled for shared resources < PATH >
+Access denied to shared (static) resource because of the file extension <:*:> PATH >
+No suitable handler found for URL <:*:> PATH > falling back to container to process this request
+Access denied to shared (static) resource <:*:> PATH >
+Access to parent directories via '..' is by default disabled for shared resources ..< PATH >
+Unable to find component with id 'c1' in BorderBodyContainer Component id border_body
+Merge markup < TESTCASE > < HTML >
+Removing from cache < TESTCASE >
+Removed from cache file < PATH >
+Removed derived markup from cache file < PATH >
+First level fragment '< TESTCASE > < HTML >
+Second level fragment '< TESTCASE > < HTML >
+The markup file does not have a XML declaration prolog with 'encoding' attribute < TESTCASE > <:*:> before
+The markup file does not have a XML declaration prolog with 'encoding' attribute < TESTCASE > This is a test < HTML >
+
+tok(0) <!--
+<:*:> < HTML >
+tok(0)
+tok(0) <!DOCTYPE HTML PUBLIC "-< PATH > HTML 4.01< PATH >
+tok(0) This is a test
+Loading markup from < TESTCASE > < HTML >Some more text
+Error while reading the markup < TESTCASE > < HTML >
+The < HTML > has a child element with wicket id "wicket_relative_path_prefix_-1539098525". You must add the variable ${wicket_relative_path_prefix_-1539098525} to the localized text for the wicket message.
+Add foo bar to Page class < TESTCASE > id 0 render count 0
+Begin render Component id foo bar
+Rendered Component id foo bar
+End render Component id foo bar
+internalRenderHead Component id foo bar
+Cannot find setter corresponding to public < TESTCASE > < TESTCASE >()
+Cannot set field public < TESTCASE > < TESTCASE > to null
+loaded transient object 'A test label from a resource bundle' for '< TESTCASE > attached false tempModelObject A test label from a resource bundle '
+Property not found key 'missingKey' Component ' Component id testlabelWithDefault '
+Property found in cache 'weather.detail' Component ' TestPage Component id 0 ' value 'The report for {0 date medium} shows the temperature as {2 number ###.##} {3} and the weather to be {1}'
+loaded transient object <:*:> text' for 'StringResourceModel key <:*:> default null params '
+Property found in cache <:*:> Component ' TestPage Component id 0 ' value 'Weather station "${name}" reports that the temperature is <:*:> <:*:>
+Offered for storing asynchronously page with id <:*:> in session <:*:>
+PageSavingRunnable Saving asynchronously Entry sessionId <:*:> pageId <:*:> pageClass < TESTCASE > ...
+Storing data for page with id <:*:> in session with id <:*:>
+Returning <:*:> for page with id <:*:> in session with id <:*:>
+Removing data for pages in session with id <:*:>
+Destroying...
+Destroyed.
+Unable to find Cookie with name <:*:> and request URI
+'Time-limited test' attempting to acquire lock to page with id <:*:>
+Time-limited test acquired lock to page <:*:>
+worker <:*:> elapsed <:*:> <:*:> duration 10 seconds
+'worker <:*:> attempting to acquire lock to page with id <:*:>
+worker <:*:> acquired lock to page <:*:>
+worker <:*:> waiting for lock to page <:*:> for <:*:> <:*:>
+'worker <:*:> released lock to page with id <:*:>
+'worker <:*:> notifying blocked threads
+Thread 'worker <:*:> failed to acquire lock to page with id <:*:> attempted for <:*:> <:*:> out of allowed 1 second. The thread that holds the lock has name 'worker <:*:>
+<:*:> attempting to acquire lock to page with id <:*:>
+<:*:> acquired lock to page <:*:>
+<:*:> waiting for lock to page <:*:> for <:*:> seconds
+<:*:> released lock to page with id <:*:>
+<:*:> notifying blocked threads
+<:*:> locking
+<:*:> locked
+<:*:> unlocked
+lock for page with id 0 no longer locked by <:*:> falling through
+'Time-limited test' released lock to page with id '0'
+'Time-limited test' notifying blocked threads
+PageSavingRunnable Saving asynchronously Entry sessionId <:*:> pageId <:*:> ...
+Returning the data of a <:*:> entry with sessionId <:*:> and pageId <:*:>
+Returning the page of a <:*:> entry with session id <:*:> and page id <:*:>
+serializing page <:*:> for <:*:> (session <:*:>
+Storing synchronously page with id <:*:> in session <:*:>
+deserializing page 0 for 0ms (session null)
+Starting...
+Took 4686 ms
+Save 1000 files 254850823 bytes
+Read 20 files 5481692 bytes
+Average save time (ns) 115.493
+Loaded <:*:> bytes for page with id '1' in session 'anything'
+Stored '1' bytes for page '1' in session 'anything'
+Removed <:*:> <:*:> in session 'anything'
+Evicted page with id '{}' from the HttpSessionDataStore
+Attempting to locate resource <:*:> using finder' classpath '
+Attempting to locate resource <:*:> using finder' webapppath / '
+Attempting to locate resource <:*:> using finder' classpath META-INF< PATH >
+Request Source URI <:*:> <:*:> <:*:> <:*:>
+Resolved handler < TESTCASE > doesn't target an action on a page no CSRF check performed
+Request Source URI null
+Request Source URI < URL >
+Source URI conflicts with request origin <:*:>
+Possible CSRF attack request URL < URL > Origin < URL > action aborted with error <:*:> <:*:> <:*:>
+Possible CSRF attack request URL < URL > Origin < URL > action <:*:>
+Origin < URL > matched whitelisted origin example.com request accepted
+CSRF Origin < URL > was whitelisted allowed for page < TESTCASE >
+Possible CSRF attack request URL < URL > Origin <:*:> <:*:> <:*:> <:*:> action aborted with error 400 BAD REQUEST
+Source URI not present in request <:*:>
+Possible CSRF attack request URL < URL > Origin null action <:*:>
+Targeted page < TESTCASE > was opted out of the CSRF origin checks allowed
+Possible CSRF attack request URL < URL > Origin null action aborted with error 400 BAD REQUEST
+CSRF listener is disabled no checks performed
+CSRF Origin < URL > matched requested resource allowed for page < TESTCASE >
+Url <:*:> < PATH > has been decrypted to 'wicket< PATH >
+One compatible mapper found for URL <:*:> <:*:> <:*:> <:*:> -> 'Mapper < TESTCASE > Score <:*:>
+determined user agent browserInternetExplorer <:*:>
+An error occurred while converting '01537112190982' to an integer Unable to convert '01537112190982' to an int value
+Connection lost give up responding.
+filterName< PATH > key set to WicketTesterApplication-3dab76ee-53c9-4468-bfe0-02b849c19aa1
+will use wicket < TESTCASE > session as the session key to get the Wicket session
+Incoming request < PATH > with originalRemoteAddr '< HTML >' newRemoteHost 'localhost' newScheme 'http' newSecure 'false' new X-Forwarded-For 'null new X-Forwarded-By 'null'
+Incoming request < PATH > with originalRemoteAddr '< HTML >' newScheme 'https' newSecure 'true' new x-forwarded-for 'null new x-forwarded-by 'null'
+Incoming request < PATH > with originalRemoteAddr '< HTML >' newScheme 'http' newSecure 'false' new x-forwarded-for 'null new x-forwarded-by 'proxy1 proxy2'
+Incoming request < PATH > with originalRemoteAddr '< HTML > new x-forwarded-by 'proxy1'
+No compatible mapper found for URL <:*:> <:*:> <:*:>
+< TESTCASE > <:*:> Wicket <:*:> <:*:> <:*:>
+Run the job '< TESTCASE >'
+Finished with job '< TESTCASE >'
+Ignoring request null
+Unable to find component with id 'a' in Page class < TESTCASE > id 0 render count 1
+Error detaching RequestCycle
+Error invoking listener < TESTCASE >
+2 exception handlers available for exception {} using the first handler
+Error during request processing. URL /
+Segments ' SomePage jsessionid 1234 ' do not start with common prefix '< PATH >
+< TESTCASE > cannot be added to the registry.
+One compatible mapper found for URL <:*:> <:*:> -> 'Mapper < TESTCASE > Score 2'
+Multiple compatible mappers found for URL 'Aparameter?file umlaut-%C3%A4-%C3%B6-%C3%BC'
+loaded transient object '< PATH > for '< TESTCASE > attached false tempModelObject < PATH >
+Property found in cache <:*:> Component ' Component id label ' value <:*:>
+An invalid character <:*:> found at position '15' in '< HTML >                '
+Dropping character for codePoint <:*:> at position <:*:>
+Unable to find Cookie with name <:*:> and request URI wicket< PATH >
+Cookie saved Cookie name <:*:> value <:*:> domain null path < PATH > maxAge 1969.12.31(2592000) request URI wicket< PATH >
+Loading markup from < TESTCASE >
+error delegating to writeObject Cannot serialize me twice! path
+E- path label < TESTCASE >
+Cookie saved Cookie name key value value one domain null path < PATH > maxAge 1969.12.31(2592000) request URI
+Found Cookie with name <:*:> and request URI
+Cookie saved Cookie name form.input value test domain null path < PATH > maxAge 1969.12.31(2592000) request URI
+Removed Cookie form.input
+Cookie saved Cookie name key value value one domain a domain path < PATH > maxAge 1969.12.31(123) request URI
+Cannot find setter corresponding to public int <:*:>
+Cannot find getter class L< TESTCASE > <:*:>
+Cannot set new value null
+Error serializing object class java.lang.Object object java.lang.Object 77331a02
+Property found in cache 'info.msg' Component ' Component id label ' value 'good that is just for info'
+Page not allowed to render Page class < TESTCASE > id 0 render count 2
+Calculating context relative path from context path '< PATH > filterPrefix 'servlet/' uri '< PATH > xml'
+A ResourceReference wont be created for a resource with key scope < TESTCASE > name BlockedResourceLinkPage.html xml locale null style null variation null because it cannot be located.
+No suitable handler found for URL wicket< PATH > xml falling back to container to process this request
+Property found in cache 'error.msg' Component ' Component id label ' value 'sorry that is an error'
+Property found in cache 'StringValidator.minimum' Component ' TextField Component id text ' value 'The value of '${label}' is shorter than the minimum of ${minimum} characters.'
+Current page version when clicking the non-ajax link 0

@@ -1,0 +1,76 @@
+Couldn't acquire permits to downsize the queue, resizing has been aborted
+Waiting for state <:*:> <:*:> for <:*:> up to <:*:>
+Waiting for state <:*:> for delegate:org.apache.flume.lifecycle.TestLifecycleController$SleeperLifecycleDelegate@64cee07 up to <:*:>
+Still want one of states:[IDLE] sleeping:100ms
+Didn't see state within timeout 500ms
+Starting lifecycle supervisor <:NUM:>
+Lifecycle supervisor <:*:>
+Supervising <:*:> <:*:> desiredState:START
+checking <:*:> supervisoree:{ status:{ <:*:> <:*:> <:*:> <:*:> failures:<:NUM:> discard:false } <:*:> }
+first time seeing <:*:>
+Want to transition <:*:> from <:*:> to <:*:> (failures:<:NUM:>)
+Status check complete
+Stopping lifecycle supervisor <:NUM:>
+Unsupervising service:org.apache.flume.lifecycle.TestLifecycleSupervisor$CountingLifecycleAware@7d4793a8
+Setting desiredState:STOP on <:*:>
+Stopping component: org.apache.flume.lifecycle.TestLifecycleSupervisor$CountingLifecycleAware@7d4793a8
+Component has already been stopped org.apache.flume.lifecycle.TestLifecycleSupervisor$CountingLifecycleAware@7d4793a8
+Unable to start org.apache.flume.lifecycle.TestLifecycleSupervisor$<:NUM:>@7bfcd12c - Exception follows.
+Policy org.apache.flume.lifecycle.LifecycleSupervisor$SupervisorPolicy$OnceOnlyPolicy@42f30e0a of org.apache.flume.lifecycle.TestLifecycleSupervisor$<:NUM:>@7bfcd12c has been violated - supervisor should exit!
+Not in enum, loading builder class: org.apache.flume.serialization.SyslogAvroEventSerializer$Builder
+Date parse failed on (Apr <:NUM:> <:NUM:>:<:NUM:>:<:NUM:>), trying single-digit date
+Serialized event as: { Facility: <:NUM:>, Severity: <:NUM:>, Timestamp: <:NUM:>, Hostname: host, Message: "Msg <:NUM:>" }
+Avro sink <:*:>
+Building RpcClient with hostname:localhost, port:<:NUM:>, batchSize:<:NUM:>
+Using Netty bootstrap options: {connectTimeoutMillis=<:NUM:>, tcpNoDelay=true}
+Connecting to localhost/<:IP:>:<:NUM:>
+[id: <:HEX:>] <:*:>
+[id: <:HEX:>, /<:IP:>:<:NUM:> <:*:> <:*:> <:*:>
+[id: <:HEX:>, /<:IP:>:<:NUM:> => <:*:> <:*:> <:*:>
+Remote peer localhost/<:IP:>:<:NUM:> closed connection.
+Disconnecting from localhost/<:IP:>:<:NUM:>
+RPC request IO exception.
+Closing avro <:*:>
+RPC connection error :
+Received event batch:[{"headers": {}, "body": {"bytes": "test event <:NUM:>"}}, {"headers": {}, "body": {"bytes": "test event <:NUM:>"}}]
+Avro sink stopped. Metrics:{ name:null counters:{batch.success=<:NUM:>, batch.empty=<:NUM:>, batch.underflow=<:NUM:>} }
+Avro sink stopped. Metrics:{ name:null counters:{} }
+Creating instance of sink <:*:> <:*:>
+Creating instance of <:*:> <:*:> <:*:> <:*:>
+Creating instance of sink processor type failover, class org.apache.flume.sink.FailoverSinkProcessor
+Polling sink runner starting
+Sink <:*:> failed and has been sent to failover list
+Sink s1 failed again, new refresh is at <:NUM:>, current time <:NUM:>
+Sink s2 was recovered from the fail list
+Waiting for runner thread to exit
+Polling runner exiting. Metrics:{ name:null counters:{runner.backoffs.consecutive=<:NUM:>} }
+Sink selector: <:*:> initialized
+Sink failed to consume event. Attempting next sink if available.
+Event: { headers:{} body: <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> <:NUM:> Test <:NUM:> }
+Opening output stream for file /tmp/flume-rfs-<:NUM:>-<:NUM:>/<:NUM:>-<:NUM:>
+Marking time to rotate file /tmp/flume-rfs-<:NUM:>-<:NUM:>/<:NUM:>-<:NUM:>
+Time to rotate /tmp/flume-rfs-<:NUM:>-<:NUM:>/<:NUM:>-<:NUM:>
+Closing file /tmp/flume-rfs-<:NUM:>-<:NUM:>/<:NUM:>-<:NUM:>
+Produced file:<:NUM:>-<:NUM:> lastLine:Test event <:NUM:>
+RollInterval is not valid, file rolling will not happen.
+Source type org.apache.flume.source.MockSource is a custom type
+Exec source starting with <:*:> <:*:>
+Exec source started
+Stopping exec source with <:*:> <:*:>
+Stopping exec runner
+Exec runner stopped
+Waiting for exec executor service to stop
+Exec source with <:*:> <:*:> stopped. Metrics:{ name:null counters:{exec.lines.read=<:NUM:>} }
+Restarting in 10ms, exit code <:NUM:>
+Polling runner starting. Source:org.apache.flume.source.TestPollableSourceRunner$<:NUM:>@ac81430
+Unable to deliver event. Exception follows.
+Source runner interrupted. Exiting
+Polling runner exiting. Metrics:{ name:null counters:{runner.interruptions=<:NUM:>, runner.backoffs.consecutive=<:NUM:>, runner.polls=<:NUM:>, runner.backoffs=<:NUM:>} }
+Sequence generator source <:*:>
+Sequence generator source stopped. Metrics:{ name:null counters:{events.successful=<:NUM:>} }
+test flume syslog
+
+Syslog UDP Source stopping...
+Metrics:{ name:null counters:{events.success=<:NUM:>} }
+Event created from Invalid Syslog data.
+Event size larger than specified event size: <:NUM:>. You should consider increasing your event size.

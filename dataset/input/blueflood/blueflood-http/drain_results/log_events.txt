@@ -1,0 +1,240 @@
+Validating value <:*:> against constraint defined by ConstraintDescriptorImpl{annotation=javax.validation.constraints.AssertTrue, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=METHOD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message=At least one of the aggregated metrics(gauges, counters, timers, sets) are expected, payload=[Ljava.lang.Class;@62edf11e, groups=[Ljava.lang.Class;@79205848}, constraintType=GENERIC}.
+Constraint validator <:*:> found in cache.
+Validating value <:*:> against constraint defined by <:*:> payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], <:*:> <:*:> <:*:> <:*:> constraintType=GENERIC}.
+Validating value <:*:> against constraint defined by ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, <:*:> <:*:> constraintType=GENERIC}.
+Validating value <:*:> against constraint defined by ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], <:*:> min=1, message={javax.validation.constraints.Size.message}, <:*:> max=2147483647}, constraintType=GENERIC}.
+Validating value <:*:> against constraint defined by ConstraintDescriptorImpl{annotation=com.rackspacecloud.blueflood.inputs.constraints.EpochRange, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=true, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={maxPast=BEFORE_CURRENT_TIME_MS, groups=[Ljava.lang.Class;@1a0f349, maxFuture=AFTER_CURRENT_TIME_MS, message=Out of bounds. Cannot be more than ${maxPast.getValue()} milliseconds into the past. Cannot be more than ${maxFuture.getValue()} milliseconds into the future, payload=[Ljava.lang.Class;@3c60c681}, constraintType=GENERIC}.
+Validating value against constraint defined by ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, <:*:> <:*:> constraintType=GENERIC}.
+Validating value against constraint defined by ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], <:*:> min=1, message={javax.validation.constraints.Size.message}, <:*:> max=2147483647}, constraintType=GENERIC}.
+ValidationMessages not found by thread context classloader
+ValidationMessages not found by validator classloader
+ValidationMessages not found.
+ContributorValidationMessages not found by thread context classloader
+ContributorValidationMessages not found by validator classloader
+ContributorValidationMessages not found.
+org.hibernate.validator.ValidationMessages found.
+Invalid request body:
+Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, <:*:> groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, <:*:> <:*:> constraintType=GENERIC}.
+Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, <:*:> groups=[interface javax.validation.groups.Default], <:*:> min=1, message={javax.validation.constraints.Size.message}, <:*:> max=2147483647}, constraintType=GENERIC}.
+Invalid request body: {}
+java.net.ConnectException: Connection refused (Connection refused)
+[node-test-1634849687638] version[1.2.1], pid[20302], build[6c95b75/2014-06-03T15:02:52Z]
+[node-test-1634849687638] <:*:> ...
+[node-test-1634849687638] using home [/data/project/blueflood/blueflood-log-adjust/blueflood-http], config [/data/project/blueflood/blueflood-log-adjust/blueflood-http/config], data [[./target/elasticsearch-test/data]], logs [target/elasticsearch-test/logs], work [target/elasticsearch-test/work], plugins [/data/project/blueflood/blueflood-log-adjust/blueflood-http/plugins]
+[node-test-1634849687638] [/data/project/blueflood/blueflood-log-adjust/blueflood-http/plugins] directory does not exist.
+[node-test-1634849687638] loaded [], sites []
+using [UnsafeChunkDecoder] decoder
+[node-test-1634849687638] obtaining node lock on /data/project/blueflood/blueflood-log-adjust/blueflood-http/./target/elasticsearch-test/data/cluster-test-aa9cdd9cce59/nodes/0 ...
+[node-test-1634849687638] using node location [[./target/elasticsearch-test/data/cluster-test-aa9cdd9cce59/nodes/0]], local_node_id [0]
+[node-test-1634849687638] node data locations details:
+failed to load sigar
+[node-test-1634849687638] creating thread_pool [generic], type [cached], keep_alive [30s]
+[node-test-1634849687638] creating thread_pool <:*:> type [fixed], size <:*:> queue_size <:*:>
+[node-test-1634849687638] creating thread_pool <:*:> type [scaling], min [1], size <:*:> keep_alive [5m]
+[node-test-1634849687638] enabled [true], last_gc_enabled [false], interval [1s], gc_threshold [{default=GcThreshold{name='default', warnThreshold=10000, infoThreshold=5000, debugThreshold=2000}, young=GcThreshold{name='young', warnThreshold=1000, infoThreshold=700, debugThreshold=400}, old=GcThreshold{name='old', warnThreshold=10000, infoThreshold=5000, debugThreshold=2000}}]
+[node-test-1634849687638] Using probe <:*:> with refresh_interval <:*:>
+[node-test-1634849687638] Using refresh_interval [1s]
+[node-test-1634849687638] <:*:>
+[node-test-1634849687638] using indices.store.throttle.type [MERGE], with index.store.throttle.max_bytes_per_sec [20mb]
+[node-test-1634849687638] Creating MemoryCircuitBreaker with a limit of 17178820608 bytes (15.9gb) and a overhead constant of 1.03
+[node-test-1634849687638] using script cache with max_size [500], expire [null]
+[node-test-1634849687638] using node_concurrent_recoveries [2], node_initial_primaries_recoveries [4]
+[node-test-1634849687638] using <:*:> with <:*:>
+[node-test-1634849687638] using max_bytes_per_sec[20mb], concurrent_streams [3], file_chunk_size [512kb], translog_size [512kb], translog_ops [1000], and compress [true]
+[node-test-1634849687638] using max_chunk_size[8kb], max_header_size[8kb], max_initial_line_length[4kb], max_content_length[100mb], receive_predictor[512kb->512kb]
+[node-test-1634849687638] using index_buffer_size [2.6gb], with min_shard_index_buffer_size [4mb], max_shard_index_buffer_size [512mb], shard_inactive_time [30m]
+[node-test-1634849687638] using [node] weighted filter cache with size [10%], actual_size [2.6gb], expire [null], clean_interval [1m]
+[node-test-1634849687638] using size [-1] [-1b], expire [null]
+[node-test-1634849687638] using enabled [false], host [null], port [9700-9800], bulk_actions [1000], bulk_size [5mb], flush_interval [5s], concurrent_requests [4]
+[node-test-1634849687638] bound_address <:*:> publish_address <:*:>
+[node-test-1634849687638] Connected to cluster [Cluster [cluster-test-aa9cdd9cce59]]
+[node-test-1634849687638] waiting for 30s for the initial state to be set by the discovery
+[node-test-1634849687638] processing <:*:> execute
+[node-test-1634849687638] cluster state updated, source <:*:>
+[node-test-1634849687638] new_master [node-test-1634849687638][2nPpki8LQlmasYst35h4OQ][aa9cdd9cce59][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+[node-test-1634849687638] publishing cluster state version <:*:>
+[node-test-1634849687638] set local cluster state to version <:*:>
+[node-test-1634849687638] processing <:*:> no change in cluster_state
+[node-test-1634849687638] I have been elected master, scheduling a ClusterInfoUpdateJob
+[node-test-1634849687638] initial state set from discovery
+[node-test-1634849687638] processing <:*:> done applying updated cluster_state (version: <:*:>
+[node-test-1634849687638] performing state <:*:>
+[node-test-1634849687638] successful state recovery, importing cluster state...
+[node-test-1634849687638] Start <:*:> <:*:>
+[node-test-1634849687638] Start allocating unassigned shards
+Using select timeout of 500
+Epoll-bug workaround enabled = false
+[node-test-1634849687638] recovered [0] indices into cluster_state
+[node-test-1634849687638] processing <:*:> <:*:> <:*:> <:*:> execute
+[node-test-1634849687638] cluster state updated, source <:*:> <:*:> <:*:> <:*:>
+[node-test-1634849687638] processing <:*:> <:*:> <:*:> <:*:> done applying updated cluster_state (version: <:*:>
+[node-test-1634849687638] Calculating health based on state version [3]
+[node-test-1634849687638] creating Index [events], shards [1]/[0]
+[node-test-1634849687638] [events] using dynamic[true], default mapping: default_mapping_location[null], loaded_from[jar:file:/root/.m2/repository/org/elasticsearch/elasticsearch/1.2.1/elasticsearch-1.2.1.jar!/org/elasticsearch/index/mapper/default-mapping.json] and source[{
+[node-test-1634849687638] [events] using [resident] query cache with max_size [100], expire [null]
+[node-test-1634849687638] [events] using index.store.throttle.type [node], with index.store.throttle.max_bytes_per_sec [0b]
+[node-test-1634849687638] [events] creating index, cause [api], shards [1]/[0], mappings [graphite_event]
+[node-test-1634849687638] Assigned shard [[events][0], node[null], [P], s[UNASSIGNED]] to [2nPpki8LQlmasYst35h4OQ]
+[node-test-1634849687638] Assigned shard [[events][0], node[2nPpki8LQlmasYst35h4OQ], [P], <:*:> to node [2nPpki8LQlmasYst35h4OQ]
+[node-test-1634849687638] [events] full cache clear, reason [close]
+expecting 1 acknowledgements for cluster_state update (version: 4)
+[node-test-1634849687638] <:*:> creating <:*:>
+[node-test-1634849687638] [events] adding mapping [graphite_event], source [{"graphite_event":{"_routing":{"required":true},"properties":{"data":{"type":"string","index":"not_analyzed"},"tags":{"type":"string"},"tenantId":{"type":"string","index":"not_analyzed"},"what":{"type":"string","index":"not_analyzed"},"when":{"type":"long"}}}}]
+[node-test-1634849687638] [events] creating shard_id [0]
+[node-test-1634849687638] [events][0] Using [keep_only_last] deletion policy
+[node-test-1634849687638] [events][0] using [tiered] merge policy with expunge_deletes_allowed[10.0], floor_segment[2mb], max_merge_at_once[10], max_merge_at_once_explicit[30], max_merged_segment[5gb], segments_per_tier[10.0], reclaim_deletes_weight[2.0]
+[node-test-1634849687638] [events][0] using [concurrent] merge scheduler with max_thread_count[3], max_merge_count[5]
+[node-test-1634849687638] [events][0] <:*:> <:*:>
+[node-test-1634849687638] [events][0] interval [5s], flush_threshold_ops [5000], flush_threshold_size [200mb], flush_threshold_period [30m]
+[node-test-1634849687638] [events][0] state: [CREATED]->[RECOVERING], reason [from gateway]
+[node-test-1634849687638] [events][0] starting recovery from _none_ ...
+ack received from node [[node-test-1634849687638][2nPpki8LQlmasYst35h4OQ][aa9cdd9cce59][local[1]]{local=true}], cluster_state update (version: 4)
+all expected nodes acknowledged cluster_state update (version: 4)
+Creating a new instance of ElasticsearchRestHelper...
+[node-test-1634849687638] [events][0] cleaning shard content before creation
+com.rackspacecloud.blueflood.cache:type=MetadataCache,name=Stats
+-Dio.netty.eventLoopThreads: 80
+-Dio.netty.noKeySetOptimization: false
+-Dio.netty.selectorAutoRebuildThreshold: 512
+org.jctools-core.MpscChunkedArrayQueue: available
+instrumented a special java.util.Set into: <:*:>
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#2] IFD: init: current segments file is "null"; deletionPolicy=org.elasticsearch.index.deletionpolicy.SnapshotDeletionPolicy@3b9bf2d8
+[node-test-1634849687638][events][0] <:*:> IFD: now checkpoint <:*:> <:*:> segments ; isCommit = <:*:>
+[node-test-1634849687638][events][0] <:*:> IFD: <:*:> msec to checkpoint
+[node-test-1634849687638][events][0] <:*:> IW: <:*:> <:*:>
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#2] IW:
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#2] IW: <:*:> <:*:> <:*:>
+[node-test-1634849687638][events][0] <:*:> DW: <:*:>
+[node-test-1634849687638][events][0] <:*:> DW: anyChanges? <:*:> deletes=false hasTickets:false pendingChangesInFullFlush: false
+[node-test-1634849687638][events][0] <:*:> IW: apply all deletes during flush
+[node-test-1634849687638][events][0] <:*:> BD: prune sis=org.apache.lucene.index.SegmentInfos@61440076 <:*:> packetCount=0
+[node-test-1634849687638][events][0] <:*:> DW: <:*:> finishFullFlush success=true
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#2] IW: <:*:> <:*:> <:*:> <:*:>
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#2] IW: commit: wrote segments file "segments_1"
+Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+Trying to load META-INF/validation.xml <:*:> <:*:> <:*:> <:*:> <:*:>
+Trying to load META-INF/validation.xml via TCCL
+No META-INF/validation.xml found. Using annotation based configuration only.
+[node-test-1634849687638] [events][0] warming <:*:> <:*:>
+[node-test-1634849687638] [events][0] top warming <:*:> <:*:>
+Starting metrics listener HTTP server on port 19000
+[node-test-1634849687638] [events][0] scheduling refresher every 1s
+[node-test-1634849687638] [events][0] scheduling optimizer / merger every 1s
+[node-test-1634849687638] [events][0] state: <:*:> reason <:*:> <:*:> <:*:> <:*:>
+[node-test-1634849687638] [events][0] refresh with <:*:> source <:*:>
+[node-test-1634849687638][events][0] <:*:> IW: nrtIsCurrent: infoVersion matches: <:*:> DW changes: <:*:> BD changes: false
+[node-test-1634849687638] [events][0] recovery completed from _none_, took [105ms]
+[node-test-1634849687638] <:*:> shard started for [events][0], node[2nPpki8LQlmasYst35h4OQ], [P], s[INITIALIZING], indexUUID [0sl7m9RRS0as7nU5brlU2w], reason [after recovery from gateway]
+[node-test-1634849687638] processing [shard-started ([events][0], node[2nPpki8LQlmasYst35h4OQ], [P], s[INITIALIZING]), reason [after recovery from gateway]]: execute
+[node-test-1634849687638] [events][0] will apply shard started [events][0], node[2nPpki8LQlmasYst35h4OQ], [P], s[INITIALIZING], indexUUID [0sl7m9RRS0as7nU5brlU2w], reason [after recovery from gateway]
+[node-test-1634849687638] cluster state updated, source [shard-started ([events][0], node[2nPpki8LQlmasYst35h4OQ], [P], s[INITIALIZING]), reason [after recovery from gateway]]
+[node-test-1634849687638] processing [shard-started ([events][0], node[2nPpki8LQlmasYst35h4OQ], [P], s[INITIALIZING]), reason [after recovery from gateway]]: done applying updated cluster_state (version: 5)
+-Dio.netty.initialSeedUniquifier: 0x017782414ab14a60 (took 0 ms)
+Loopback interface: lo (lo, 127.0.0.1)
+/proc/sys/net/core/somaxconn: 128
+Registering tracker service
+MBean registered as com.rackspacecloud.blueflood.tracker:type=Tracker
+Token search improvements enabled: false
+Starting metric data query server (HTTP) on port 20000
+Generated: <:*:>
+[id: 0x9c4ed20c, L:/127.0.0.1:19000 <:*:> R:/127.0.0.1:35378] <:*:>
+[id: 0x9c4ed20c, L:/127.0.0.1:19000 - R:/127.0.0.1:35378] <:*:> <:*:>
+-Dio.netty.recycler.maxCapacity.default: 32768
+-Dio.netty.recycler.maxSharedCapacityFactor: 2
+-Dio.netty.recycler.linkCapacity: 16
+-Dio.netty.recycler.ratio: 8
+Validating value deployment 0 against constraint defined by ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, payload=[Ljava.lang.Class;@6668a174, groups=[Ljava.lang.Class;@68308d4e}, constraintType=GENERIC}.
+Validating value deployment 0 against constraint defined by ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={groups=[Ljava.lang.Class;@72c2db34, min=1, message={javax.validation.constraints.Size.message}, payload=[Ljava.lang.Class;@6a53f10b, max=2147483647}, constraintType=GENERIC}.
+Using url <:*:>
+ElasticsearchRestHelper.index Thread name in use: [nioEventLoopGroup-3-1]
+[node-test-1634849687638] channel <:*:> [id: <:*:> <:*:> => /127.0.0.1:9200]
+[node-test-1634849687638] Sending mapping updated to master: index [events], indexUUID [0sl7m9RRS0as7nU5brlU2w], type [graphite_event] and source [{"graphite_event":{"_routing":{"required":true},"properties":{"data":{"type":"string","index":"not_analyzed"},"tags":{"type":"string"},"tenantId":{"type":"string","index":"not_analyzed"},"what":{"type":"string","index":"not_analyzed"},"when":{"type":"long"}}}}]
+[node-test-1634849687638] processing [update-mapping [events][graphite_event] / node [2nPpki8LQlmasYst35h4OQ], order [1]]: execute
+[node-test-1634849687638] [events] update_mapping [graphite_event] ignoring mapping update task as its source is equal to ours
+[node-test-1634849687638] processing [update-mapping [events][graphite_event] / node [2nPpki8LQlmasYst35h4OQ], order [1]]: no change in cluster_state
+[node-test-1634849687638] Successfully updated master with mapping update: index [events], indexUUID [0sl7m9RRS0as7nU5brlU2w], type [graphite_event] and source [{"graphite_event":{"_routing":{"required":true},"properties":{"data":{"type":"string","index":"not_analyzed"},"tags":{"type":"string"},"tenantId":{"type":"string","index":"not_analyzed"},"what":{"type":"string","index":"not_analyzed"},"when":{"type":"long"}}}}]
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] IW: flush at getReader
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] DWFC: addFlushableState DocumentsWriterPerThread [pendingDeletes=gen=0, segment=_0, aborting=false, numDocsInRAM=1, deleteQueue=DWDQ: [ generation: 2 ]]
+[node-test-1634849687638][events][0] <:*:> TMP: findMerges: <:*:> segments
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][merge][T#1] CMS: now merge
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][merge][T#1] CMS: index:
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][merge][T#1] CMS: no more merges pending; now return
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] DWPT: flush postings as segment _0 numDocs=1
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] DWPT: new segment has 0 deleted docs
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] DWPT: new segment has no vectors; norms; docValues; prox; freqs
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] DWPT: flushedFiles=[_0_Lucene45_0.dvd, _0.nvd, _0.fdx, _0_Lucene45_0.dvm, _0_es090_0.blm, _0.fdt, _0_es090_0.tip, _0_es090_0.tim, _0_es090_0.doc, _0_es090_0.pos, _0.nvm, _0.fnm]
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] <:*:> <:*:> <:*:>
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] DWPT: flushed: segment=_0 ramUsed=0.088 MB newFlushedSize(includes docstores)=0.002 MB docs/MB=426.771
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] <:*:> <:*:> <:*:> file <:*:>
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] DW: publishFlushedSegment seg-private updates=null
+[node-test-1634849687638][events][0] <:*:> IW: <:*:>
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] IW: publish sets newSegment delGen=3 seg=_0(4.8):c1
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] BD: applyDeletes: no deletes; skipping
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] IW: return reader version=3 reader=StandardDirectoryReader(segments_1:3:nrt _0(4.8):c1)
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] TMP: seg=_0(4.8):c1 size=0.003 MB [floored]
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] TMP: allowedSegmentCount=1 vs count=1 (eligible count=1) tooBigCount=0
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][refresh][T#1] IW: getReader took 249 msec
+[node-test-1634849687638] [events][0] top warming [WarmerContext: StandardDirectoryReader(segments_1:3:nrt _0(4.8):c1)]
+[id: 0xe8c3c7ab, L:/127.0.0.1:20000 <:*:> R:/127.0.0.1:34592] <:*:>
+[id: 0xe8c3c7ab, L:/127.0.0.1:20000 - R:/127.0.0.1:34592] <:*:> <:*:>
+fetchEvents failed with message: Connect to <:*:> [/127.0.0.1] failed: Connection refused (Connection refused)
+[node-test-1634849687638] got first-phase result from [2nPpki8LQlmasYst35h4OQ][events][0]
+[node-test-1634849687638] Moving to second phase, based on results from: [2nPpki8LQlmasYst35h4OQ][events][0] (cluster state version: 5)
+[node-test-1634849687638] processing [delete-index [events]]: execute
+[node-test-1634849687638] [events] deleting index
+[node-test-1634849687638] cluster state updated, source [delete-index [events]]
+[node-test-1634849687638] [events] cleaning index, no longer part of the metadata
+[node-test-1634849687638] [events][0] state: [STARTED]->[CLOSED], reason [index no longer part of the metadata]
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#1] IW: all running merges have aborted
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#1] IW: rollback: done finish merges
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#1] DW: done abort; abortedFiles=[] success=true
+[node-test-1634849687638][events][0] elasticsearch[node-test-1634849687638][generic][T#1] IFD: delete <:*:>
+[node-test-1634849687638] [events] deleting index that is no longer part of the metadata (indices: [[]])
+[node-test-1634849687638] processing [delete-index [events]]: done applying updated cluster_state (version: 6)
+Exception org.codehaus.jackson.map.exc.UnrecognizedPropertyException: Unrecognized field "xxx" (Class com.rackspacecloud.blueflood.types.Event), not marked as ignorable
+Exception org.codehaus.jackson.JsonParseException: Unexpected character (',' (code 44)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+IO Exception parsing content
+null No valid metrics
+Exception parsing content
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+HV000001: Hibernate Validator 5.2.4.Final
+Adding composing constraint: <:*:> payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, <:*:> groups=[interface javax.validation.groups.Default], <:*:> <:*:> <:*:> <:*:> constraintType=GENERIC}.
+Using SLF4J as the default logging framework
+-Dio.netty.noUnsafe: false
+java.nio.Buffer.address: available
+sun.misc.Unsafe.theUnsafe: available
+sun.misc.Unsafe.copyMemory: available
+direct buffer constructor: available
+java.nio.Bits.unaligned: available, true
+java.nio.DirectByteBuffer.<init>(long, int): available
+java.nio.ByteBuffer.cleaner(): available
+Java version: 8
+sun.misc.Unsafe: available
+-Dio.netty.noJavassist: false
+Javassist: available
+-Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+-Dio.netty.bitMode: 64 (sun.arch.data.model)
+-Dio.netty.noPreferDirect: false
+io.netty.maxDirectMemory: 28631367680 bytes
+-Dio.netty.buffer.bytebuf.checkAccessible: true
+-Dio.netty.leakDetection.level: simple
+-Dio.netty.leakDetection.maxRecords: 4
+Loaded default ResourceLeakDetector: <:*:>
+-Dio.netty.allocator.type: unpooled
+-Dio.netty.threadLocalDirectBufferSize: 65536
+-Dio.netty.maxThreadLocalCharBufferSize: 16384
+Exception com.rackspacecloud.blueflood.exceptions.InvalidDataException: Query should contain at least one query parameter
+Either 'points' or 'resolution' is required.
+Error reading metadata value
+cant lookup rollupType for locator <:*:> range 0:2 (2), granularity metrics_1440m
+mock exception message
+No query parameters present.
+No valid TTL config set for granularity: <:*:> rollup type: <:*:>
+Using driver astyanax
+Recording delayed metrics: true
+Datastax Ingest batch enabled: false
+Registering mbean: com.netflix.MonitoredResources:type=ASTYANAX,name=MyConnectionPool,ServiceType=connectionpool
+AddHost: 127.0.0.1
+Host down: 127.0.0.1 because
+Loading the module <:*:>
+Registering the module <:*:>
