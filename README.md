@@ -97,3 +97,5 @@ You may not get the same results while reproducing the experiments due to the ra
 - In the process of prioritization, when we select a test case from the unselected test cases, there may exist many test cases that meet the current conditions (e.g., the same distance in the adaptive random prioritization strategy, the same coverage in the total and additional strategies and the generation of the ideal prioritization results, and the test cases without test execution logs that need to be appended to the test cases with test execution logs), which leads to the randomness of prioritization results.
 
 To reduce the influence of randomness, we repeated all the TCP techniques involving randomness 5 times and calculated the average results in our study. That's why the results shown in our paper are different from the results in the `example_prioritize_results` folder. 
+
+![avatar](https://github.com/VikingStudyHard/Effectiveness.pdf)
