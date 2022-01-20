@@ -88,7 +88,9 @@ Example: `python pipeline.py --project shiro --module core --logs_representation
 
 ## Randomness
 
-We provide our prioritization results for the subject `Shiro-core` in the  `./dataset/process/shiro/core/example_prioritize_results/` [folder](https://github.com/VikingStudyHard/LogTCP/tree/main/dataset/process/shiro/core/example_prioritize_results). 
+We provide our prioritization results for the subject `Shiro-core` as an example in the  `./dataset/process/shiro/core/example_prioritize_results/` [folder](https://github.com/VikingStudyHard/LogTCP/tree/main/dataset/process/shiro/core/example_prioritize_results) while the prioritization results for other subjects are shown in the following picture corresponding to the submission.
+
+![avatar](https://github.com/orangeChenz/LogTCP/blob/main/Effectiveness.png)
 
 You may not get the same results while reproducing the experiments due to the randomness which stems from the following points:
 
@@ -97,5 +99,3 @@ You may not get the same results while reproducing the experiments due to the ra
 - In the process of prioritization, when we select a test case from the unselected test cases, there may exist many test cases that meet the current conditions (e.g., the same distance in the adaptive random prioritization strategy, the same coverage in the total and additional strategies and the generation of the ideal prioritization results, and the test cases without test execution logs that need to be appended to the test cases with test execution logs), which leads to the randomness of prioritization results.
 
 To reduce the influence of randomness, we repeated all the TCP techniques involving randomness 5 times and calculated the average results in our study. That's why the results shown in our paper are different from the results in the `example_prioritize_results` folder. 
-
-![avatar](https://github.com/orangeChenz/LogTCP/blob/main/Effectiveness.png)
