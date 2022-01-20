@@ -98,4 +98,7 @@ You may not get the same results while reproducing the experiments due to the ra
 
 To reduce the influence of randomness, we repeated all the TCP techniques involving randomness 5 times and calculated the average results in our study. That's why the results shown in our paper are different from the results in the `example_prioritize_results` folder. 
 
-![avatar](https://github.com/orangeChenz/LogTCP/blob/main/Effectiveness.pdf)
+<object data="https://github.com/orangeChenz/LogTCP/blob/main/Effectiveness.pdf" type="application/pdf"> 
+    <embed src="https://github.com/orangeChenz/LogTCP/blob/main/Effectiveness.pdf">  
+    </embed> 
+</object> 
