@@ -11,6 +11,7 @@ This repository is the basic implementation of our submission in TOSEM 2022: **E
 - [Environment](https://github.com/VikingStudyHard/LogTCP#environment)
 - [Experiment Replication](https://github.com/VikingStudyHard/LogTCP#experiment-replication) 
 - [Randomness](https://github.com/VikingStudyHard/LogTCP#randomness)
+- [Examples of Test Log](https://github.com/VikingStudyHard/LogTCP#examples-of-test-log)
 
 
 ## Introduction
