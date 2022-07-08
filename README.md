@@ -97,3 +97,31 @@ You may not get the same results while reproducing the experiments due to the ra
 - In the process of prioritization, when we select a test case from the unselected test cases, there may exist many test cases that meet the current conditions (e.g., the same distance in the adaptive random prioritization strategy, the same coverage in the total and additional strategies and the generation of the ideal prioritization results, and the test cases without test execution logs that need to be appended to the test cases with test execution logs), which leads to the randomness of prioritization results.
 
 To reduce the influence of randomness, we repeated all the TCP techniques involving randomness 5 times and calculated the average results in our study. That's why the results shown in our paper are different from the results in the `example_prioritize_results` folder. 
+
+
+## Examples of Test Log
+
+We produce test logs based on the _Log4j_ or _Logback_ (a successor to Log4j) library with log level set to _ALL_.
+
+The table below shows the logs for one of the test cases in each project as examples.
+
+The log consists of 3 parts (i.e., the timestamp, the logging level, and the log message).
+
+
+
+|  ID | Project | Test Case |
+|  :---:  |  :---  | :---  |
+| 1  | ActiveMQ-amqp | [org.apache.activemq.transport.amqp.AMQ4563Test](https://github.com/VikingStudyHard/log_examples/org.apache.activemq.transport.amqp.AMQ4563Test-output.txt) |
+| 2  | Airavata-registry-core | [org.apache.airavata.registry.core.repositories.appcatalog.ApplicationDeploymentRepositoryTest](https://github.com/VikingStudyHard/log_examples/org.apache.airavata.registry.core.repositories.appcatalog.ApplicationDeploymentRepositoryTest-output.txt) |
+| 3  | Blueflood-http | [com.rackspacecloud.blueflood.inputs.handlers.HttpAggregatedMultiIngestionHandlerTest](https://github.com/VikingStudyHard/log_examples/com.rackspacecloud.blueflood.inputs.handlers.HttpAggregatedMultiIngestionHandlerTest-output.txt) |
+| 4  | Dubbo-config-spring | [com.alibaba.dubbo.config.spring.beans.factory.annotation.AnnotationPropertyValuesAdapterTest](https://github.com/VikingStudyHard/log_examples/com.alibaba.dubbo.config.spring.beans.factory.annotation.AnnotationPropertyValuesAdapterTest-output.txt) | 
+| 5  | Flume-ng-core | [org.apache.flume.sink.TestAvroSink](https://github.com/VikingStudyHard/log_examples/org.apache.flume.sink.TestAvroSink-output.txt) |
+| 6  | Kylin-core-metadata | [org.apache.kylin.source.datagen.DataGenTest](https://github.com/VikingStudyHard/log_examples/org.apache.kylin.source.datagen.DataGenTest-output.txt) |
+| 7  | ORCID-Source-core | [org.orcid.core.manager.impl.BibtexManagerTest](https://github.com/VikingStudyHard/log_examples/org.orcid.core.manager.impl.BibtexManagerTest-output.txt) |
+| 8  | Shiro-core | [org.apache.shiro.realm.jdbc.JDBCRealmTest](https://github.com/VikingStudyHard/log_examples/org.apache.shiro.realm.jdbc.JDBCRealmTest-output.txt) |
+| 9  | Webdrivermanager | [io.github.bonigarcia.wdm.test.chrome.ChromeVersionTest](https://github.com/VikingStudyHard/log_examples/io.github.bonigarcia.wdm.test.chrome.ChromeVersionTest-output.txt)|
+| 10  | Wicket-core | [org.apache.wicket.page.PageAccessSynchronizerTest](https://github.com/VikingStudyHard/log_examples/org.apache.wicket.page.PageAccessSynchronizerTest-output.txt) |
+
+
+
+
