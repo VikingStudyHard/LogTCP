@@ -102,7 +102,7 @@ To reduce the influence of randomness, we repeated all the TCP techniques involv
 
 ## Examples of Test Log
 
-We produce test logs based on the _Log4j_ or _Logback_ (a successor to Log4j) library with log level set to _ALL_.
+We produce test logs based on logging framework (i.e., Log4j or Logback) and set the logging level to _ALL_.
 
 The table below shows the logs for one of the test cases in each project as examples.
 
