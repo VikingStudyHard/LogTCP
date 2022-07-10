@@ -114,15 +114,15 @@ The log consists of 3 parts (i.e., the timestamp, the logging level, and the log
 
 |  ID | Subject | Test Case |
 |  :---:  |  :---  | :---  |
-| 1  | ActiveMQ-amqp | [org.apache.activemq.transport.amqp.AMQ4563Test](https://github.com/VikingStudyHard/log_examples/org.apache.activemq.transport.amqp.AMQ4563Test-output.txt) |
-| 2  | Airavata-registry-core | [org.apache.airavata.registry.core.repositories.appcatalog.ApplicationDeploymentRepositoryTest](https://github.com/VikingStudyHard/log_examples/org.apache.airavata.registry.core.repositories.appcatalog.ApplicationDeploymentRepositoryTest-output.txt) |
-| 3  | Blueflood-http | [com.rackspacecloud.blueflood.inputs.handlers.HttpAggregatedMultiIngestionHandlerTest](https://github.com/VikingStudyHard/log_examples/com.rackspacecloud.blueflood.inputs.handlers.HttpAggregatedMultiIngestionHandlerTest-output.txt) |
-| 4  | Dubbo-config-spring | [com.alibaba.dubbo.config.spring.beans.factory.annotation.AnnotationPropertyValuesAdapterTest](https://github.com/VikingStudyHard/log_examples/com.alibaba.dubbo.config.spring.beans.factory.annotation.AnnotationPropertyValuesAdapterTest-output.txt) | 
-| 5  | Flume-ng-core | [org.apache.flume.sink.TestAvroSink](https://github.com/VikingStudyHard/log_examples/org.apache.flume.sink.TestAvroSink-output.txt) |
-| 6  | Kylin-core-metadata | [org.apache.kylin.source.datagen.DataGenTest](https://github.com/VikingStudyHard/log_examples/org.apache.kylin.source.datagen.DataGenTest-output.txt) |
-| 7  | ORCID-Source-core | [org.orcid.core.manager.impl.BibtexManagerTest](https://github.com/VikingStudyHard/log_examples/org.orcid.core.manager.impl.BibtexManagerTest-output.txt) |
-| 8  | Shiro-core | [org.apache.shiro.realm.jdbc.JDBCRealmTest](https://github.com/VikingStudyHard/log_examples/org.apache.shiro.realm.jdbc.JDBCRealmTest-output.txt) |
-| 9  | Webdrivermanager | [io.github.bonigarcia.wdm.test.chrome.ChromeVersionTest](https://github.com/VikingStudyHard/log_examples/io.github.bonigarcia.wdm.test.chrome.ChromeVersionTest-output.txt)|
-| 10  | Wicket-core | [org.apache.wicket.page.PageAccessSynchronizerTest](https://github.com/VikingStudyHard/log_examples/org.apache.wicket.page.PageAccessSynchronizerTest-output.txt) |
+| 1  | ActiveMQ-amqp | [org.apache.activemq.transport.amqp.AMQ4563Test](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/org.apache.activemq.transport.amqp.AMQ4563Test-output.txt) |
+| 2  | Airavata-registry-core | [org.apache.airavata.registry.core.repositories.appcatalog.ApplicationDeploymentRepositoryTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/org.apache.airavata.registry.core.repositories.appcatalog.ApplicationDeploymentRepositoryTest-output.txt) |
+| 3  | Blueflood-http | [com.rackspacecloud.blueflood.inputs.handlers.HttpAggregatedMultiIngestionHandlerTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/com.rackspacecloud.blueflood.inputs.handlers.HttpAggregatedMultiIngestionHandlerTest-output.txt) |
+| 4  | Dubbo-config-spring | [com.alibaba.dubbo.config.spring.beans.factory.annotation.AnnotationPropertyValuesAdapterTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/com.alibaba.dubbo.config.spring.beans.factory.annotation.AnnotationPropertyValuesAdapterTest-output.txt) |
+| 5  | Flume-ng-core | [org.apache.flume.sink.TestAvroSink](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/org.apache.flume.sink.TestAvroSink-output.txt) |
+| 6  | Kylin-core-metadata | [org.apache.kylin.source.datagen.DataGenTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/org.apache.kylin.source.datagen.DataGenTest-output.txt) |
+| 7  | ORCID-Source-core | [org.orcid.core.manager.impl.BibtexManagerTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/org.orcid.core.manager.impl.BibtexManagerTest-output.txt) |
+| 8  | Shiro-core | [org.apache.shiro.realm.jdbc.JDBCRealmTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/org.apache.shiro.realm.jdbc.JDBCRealmTest-output.txt) |
+| 9  | Webdrivermanager | [io.github.bonigarcia.wdm.test.chrome.ChromeVersionTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/io.github.bonigarcia.wdm.test.chrome.ChromeVersionTest-output.txt)|
+| 10  | Wicket-core | [org.apache.wicket.page.PageAccessSynchronizerTest](https://github.com/VikingStudyHard/LogTCP/tree/main/log_examples/org.apache.wicket.page.PageAccessSynchronizerTest-output.txt) |
 
 
